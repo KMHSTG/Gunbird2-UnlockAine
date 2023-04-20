@@ -6,8 +6,9 @@ If using Shmupmame 4.2:  -nvram_directory nul
 Example: /Shmupmameui_v42.exe gunbird2 -record gb2demo.inp -nvram_directory nul
 
 If using regular MAME:    -nonvram_save                 
-Example: /mame.exe gunbird2 -record gb2demo.inp -nonvram_save
+Example: /mame.exe gunbird2 -record gb2demo.inp -nonvram_save  
 
+Before launching the patched game like this, make sure your MAME nvram directory has no "gunbird2" folder in it.
 
 ## Patching Instructions:
 
