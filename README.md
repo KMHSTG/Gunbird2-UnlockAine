@@ -1,6 +1,6 @@
 # **Gunbird 2 - Unlock Aine**
 
-This patch makes Aine unlocked by default in the Gunbird 2 MAME rom. It has no other effect. The advantage to unlocking Aine in this manner, as opposed to using the built-in password, is mainly that you will be able to record and playback Gunbird 2 demos in MAME with all characters, while disabling nvram. Which will let you avoid demo desync. After patching your rom, make sure to add the following command to both your recording and playback shortcuts:  
+This patch makes Aine unlocked by default in the Gunbird 2 MAME rom. It has no other effect. The advantage to unlocking Aine in this manner, as opposed to using the built-in password, is mainly that you will be able to record and playback Gunbird 2 demos in MAME with all characters, while disabling nvram. Which will let you avoid demo desync. After patching your rom, make sure to add the following command to both your recording and playback shortcuts (and any other shortcuts you will be launching the game with):  
 
 If using Shmupmame 4.2:  -nvram_directory nul          
 Example: \Shmupmameui_v42.exe gunbird2 -record gb2demo.inp -nvram_directory nul
@@ -8,7 +8,7 @@ Example: \Shmupmameui_v42.exe gunbird2 -record gb2demo.inp -nvram_directory nul
 If using regular MAME:    -nonvram_save                 
 Example: \mame.exe gunbird2 -record gb2demo.inp -nonvram_save  
 
-Before launching the patched game like this, make sure your MAME nvram directory has no "gunbird2" folder in it.
+Before launching the patched game like this, make sure your MAME nvram directory has no "gunbird2" folder in it. If you make a mistake with your shortcuts, and run the game even once without the nvram-disable, then MAME will immediately recreate the gunbird2 folder in the nvram directory. Preventing the gunbird2 folder from ever appearing there, should be your visual aid on how to avoid demo desync with certainty.
 
 ## Patching Instructions:
 
