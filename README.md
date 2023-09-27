@@ -31,7 +31,8 @@ eeprom-gunbird2.bin
 (Patched) &nbsp; MD5:  &nbsp; &nbsp;   d826969537b4a98d0ee1029b3aaf1559  
 (Patched) &nbsp;  SHA-1: &nbsp; 6bb49f322d2bc9d3b1616944a45d32d0bb476e27  
 
-## &nbsp;
+&nbsp;
+##
 
 Patch by KMH  
 2023-04-17 - Released
